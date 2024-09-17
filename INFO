@@ -1,0 +1,14 @@
+https://flask.palletsprojects.com/en/3.0.x/quickstart/
+> Here is a basic introduction to how the Markup class works:
+
+# init
+python3 -m venv .venv
+. .venv/bin/activate
+pip install Flask
+
+# run
+flask --app app run
+# all ip
+# flask run --host=0.0.0.0
+# debug
+flask --app app run --debug
